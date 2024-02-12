@@ -37,7 +37,7 @@ def main():
     price["timestamp"] = timestamp
 
     # Create directory if it doesn't exist
-    path = "crypto_prices"
+    path = "/home/gustavo/Escritorio/humai/01_intro_Python/clase_5/cron/crypto_prices"
     os.makedirs(path, exist_ok=True)
 
     # Save data to a CSV file
